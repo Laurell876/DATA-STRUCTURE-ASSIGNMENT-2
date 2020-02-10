@@ -1,0 +1,9 @@
+
+public abstract class MathLib {
+	public abstract int gcd(int x, int y);
+	public abstract long ack(long x, long y);
+	public abstract int fib(int x);
+	public abstract int hanoi(int n);
+	
+}
+

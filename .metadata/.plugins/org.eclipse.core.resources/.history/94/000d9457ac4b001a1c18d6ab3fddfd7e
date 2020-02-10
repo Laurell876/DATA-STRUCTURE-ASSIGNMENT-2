@@ -1,0 +1,11 @@
+
+public class MathLib {
+	public int GCDRec(int x, int y) {
+		if(y==0) {
+			return x;
+		}
+		else if(x>=y && x!=0) {
+			return GCDRec(y, x % y);
+		}	
+	}
+}
