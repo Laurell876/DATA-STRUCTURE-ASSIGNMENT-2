@@ -1,0 +1,36 @@
+
+public class IterationMathLib extends MathLib {
+	
+	public int gcd(int x, int y) {
+		while (x != y) { 
+	        if (x > y)         
+	            x = x - y;         
+	        else        
+	            y = y - x;         
+	    } 
+	    return x;
+	};
+	
+		
+	public int ack(int x, int y) {
+		return 1;
+	};
+	public int fib(int x) {
+		int previouspreviousNumber, previousNumber = 0, currentNumber = 1;
+
+        for (int i = 1; i < x ; i++) {
+
+            previouspreviousNumber = previousNumber;
+
+            previousNumber = currentNumber;
+
+            currentNumber = previouspreviousNumber + previousNumber;
+
+        }
+        return currentNumber;
+	};
+	public int hanoi(int n) {
+		return 1;
+	};
+
+}

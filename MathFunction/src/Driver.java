@@ -16,6 +16,14 @@ public class Driver {
 		int hanoi = calculator.hanoi(10);
 		System.out.println("HANOI using recursion: " + hanoi);
 		
+		
+		
+		IterationMathLib calculator2 = new IterationMathLib();
+		GCD = calculator.gcd(100,20);
+		System.out.println("GCD using iteration: " + GCD);
+		
+		fib = calculator2.fib(10);
+		System.out.println("FIB using iteration: " + fib);
 
 	}
 

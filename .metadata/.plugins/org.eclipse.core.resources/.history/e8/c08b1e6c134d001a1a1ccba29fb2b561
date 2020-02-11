@@ -1,0 +1,17 @@
+
+public class IterationMathLib extends MathLib {
+	
+	public int gcd(int x, int y) {
+		return int;
+	};
+	public int ack(int x, int y) {
+		return int;
+	};
+	public int fib(int x) {
+		return int;
+	};
+	public int hanoi(int n) {
+		return int;
+	};
+
+}
